@@ -1,8 +1,0 @@
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\sd.deps.json
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\sd.dll
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\sd.pdb
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\sd.AssemblyInfoInputs.cache
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\sd.AssemblyInfo.cs
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\sd.csproj.CoreCompileInputs.cache
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\sd.dll
-I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\sd.pdb
