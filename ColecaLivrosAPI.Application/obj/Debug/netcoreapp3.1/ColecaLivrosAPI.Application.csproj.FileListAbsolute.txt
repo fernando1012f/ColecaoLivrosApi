@@ -1,0 +1,12 @@
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\bin\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.deps.json
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\bin\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.dll
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.csprojAssemblyReference.cache
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.AssemblyInfoInputs.cache
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.AssemblyInfo.cs
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\bin\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.pdb
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\bin\Debug\netcoreapp3.1\ColecaoLivrosAPI.Dominio.dll
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\bin\Debug\netcoreapp3.1\ColecaoLivrosAPI.Dominio.pdb
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.csproj.CoreCompileInputs.cache
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.csproj.CopyComplete
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.dll
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaLivrosAPI.Application\obj\Debug\netcoreapp3.1\ColecaLivrosAPI.Application.pdb

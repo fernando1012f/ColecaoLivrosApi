@@ -1,0 +1,9 @@
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.deps.json
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.dll
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\bin\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.pdb
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.AssemblyInfoInputs.cache
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.AssemblyInfo.cs
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.dll
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.pdb
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.csprojAssemblyReference.cache
+I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\sd\obj\Debug\netcoreapp3.1\ColecaoLivrosAPI.Domain.csproj.CoreCompileInputs.cache

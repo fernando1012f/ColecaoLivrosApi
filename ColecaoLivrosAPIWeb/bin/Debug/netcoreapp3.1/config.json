@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "ColecaoLivroDB": "server=DESKTOP-OAOA55O;port=3306;database=colecaolivrodb;uid=admin;password=123456"
+  }
+}
+
+
