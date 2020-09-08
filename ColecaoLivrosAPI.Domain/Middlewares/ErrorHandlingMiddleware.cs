@@ -33,17 +33,18 @@ namespace ColecaoLivrosAPI.Domain.Middlewares
         private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             var code = HttpStatusCode.InternalServerError; // 500 if unexpected
-
+            var message = "Erro interno";
             if (exception is IDomainException)
             {
                 var domainException = exception as IDomainException;
                 code = domainException.StatusCode;
+                message = exception.Message;
             }
                 
              // else if (exception is MyUnauthorizedException) code = HttpStatusCode.Unauthorized;
              // else if (exception is MyException)             code = HttpStatusCode.BadRequest;
 
-             var result = JsonConvert.SerializeObject(new { error = exception.Message });
+             var result = JsonConvert.SerializeObject(new { error = message });
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
             return context.Response.WriteAsync(result);
