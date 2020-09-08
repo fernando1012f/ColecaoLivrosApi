@@ -45,14 +45,9 @@ namespace ColecaoLivrosAPI.APIWeb
         {   
             
             services.AddControllers();
-            services.AddAutoMapper(typeof(MappingLivro));
-            services.AddAutoMapper(typeof(MappingAutor));
+            services.AddAutoMapper(typeof(BaseProfile));
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddMediatR(typeof(GetLivrosCommand).Assembly, this.GetType().Assembly);
-            services.AddMediatR(typeof(GetLivroByIdCommand).Assembly, this.GetType().Assembly);
-            services.AddMediatR(typeof(PostLivroCommand).Assembly, this.GetType().Assembly);
-            services.AddMediatR(typeof(GetAutoresCommand).Assembly, this.GetType().Assembly);
-            services.AddMediatR(typeof(PostAutorCommand).Assembly, this.GetType().Assembly);
             var connectionString = Configuration.GetConnectionString("ColecaoLivroDB");
             services.AddDbContext<ColecaoLivrosAPIContext>(option =>
                                                                 option.UseLazyLoadingProxies()

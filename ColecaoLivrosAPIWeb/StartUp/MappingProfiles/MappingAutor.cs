@@ -6,7 +6,7 @@ using ColecaoLivrosAPI.Application.Commands.Autor;
 
 namespace ColecaoLivrosAPIWeb.StartUp.MappingProfiles
 {
-    public class MappingAutor : Profile
+    public class MappingAutor : BaseProfile
     {
         public MappingAutor()
         {

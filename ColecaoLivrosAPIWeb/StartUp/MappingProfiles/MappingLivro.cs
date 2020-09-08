@@ -4,13 +4,14 @@ using ColecaoLivrosAPI.Application.Commands.Livro;
 using ColecaoLivrosAPI.Application.DTOs;
 using ColecaoLivrosAPI.Application.DTOs.Autor;
 using ColecaoLivrosAPI.Dominio.Models.Entidades;
+using ColecaoLivrosAPIWeb.StartUp.MappingProfiles;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ColecaoLivrosAPI.Application.MappingProfiles
 {
-    public class MappingLivro : Profile
+    public class MappingLivro : BaseProfile
     {
         public MappingLivro()
         {
