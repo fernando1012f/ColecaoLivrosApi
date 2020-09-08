@@ -22,40 +22,42 @@ namespace ColecaoLivrosAPIWeb.Controllers
             this.mediator = mediator;
         } 
         [HttpPost]
-        public async Task<Unit> PostAutor(PostAutorCommand postAutorCommand)
+        public async Task<IActionResult> PostAutor(PostAutorCommand postAutorCommand)
         {
-            return await mediator.Send(postAutorCommand);
+            await mediator.Send(postAutorCommand);
+            return Ok();
         }
 
         [HttpPut]
         [Route("{Id}")]
-        public async Task<Unit> PutAutor(long Id, [FromBody]PutAutorCommand putAutorCommand)
+        public async Task<IActionResult> PutAutor(long Id, [FromBody]PutAutorCommand putAutorCommand)
         {
-            return await mediator.Send(new PutAutorCommand() {
+            await mediator.Send(new PutAutorCommand() {
                AutorId = Id,
                Idade = putAutorCommand.Idade,
                NomeAutor = putAutorCommand.NomeAutor,
                LivrosEscritos = putAutorCommand.LivrosEscritos});
+            return Ok();
         }
 
         [HttpGet]
-        public async Task<IEnumerable<AutorResponseDto>> GetAutores()
+        public async Task<ActionResult<AutorResponseDto>> GetAutores()
         {
-            return await mediator.Send(new GetAutoresCommand());
+            return Ok(await mediator.Send(new GetAutoresCommand()));
         }
         
         [HttpGet]
         [Route("{Id}")]
-        public async Task<AutorResponseDto> GetAutorById(long Id)
+        public async Task<ActionResult<AutorResponseDto>> GetAutorById(long Id)
         {
-            return await mediator.Send(new GetAutorByIdCommand() { AutorId = Id});
+            return Ok(await mediator.Send(new GetAutorByIdCommand() { AutorId = Id}));
         }
 
         [HttpDelete]
         [Route("{Id}")]
-        public async Task<Unit> DeleteAutor(long Id)
+        public async Task<IActionResult> DeleteAutor(long Id)
         {
-            return await mediator.Send(new DeleteAutorCommand() { Id = Id });
+            return Ok(await mediator.Send(new DeleteAutorCommand() { Id = Id }));
         }
     }
 }

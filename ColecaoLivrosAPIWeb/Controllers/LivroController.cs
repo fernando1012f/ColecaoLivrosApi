@@ -25,21 +25,21 @@ namespace ColecaoLivrosAPIWeb.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<LivroResponseDto>> GetLivros()
+        public async Task<ActionResult<LivroResponseDto>> GetLivros()
         {
-           return await mediatr.Send(new GetLivrosCommand());
+           return Ok(await mediatr.Send(new GetLivrosCommand()));
         }
 
         [Route("{Id}")]
-        public async Task<LivroResponseDto> GetLivroById(int Id)
+        public async Task<ActionResult<LivroResponseDto>> GetLivroById(int Id)
         {
-            return await mediatr.Send(new GetLivroByIdCommand() { Id = Id});
+            return Ok(await mediatr.Send(new GetLivroByIdCommand() { Id = Id}));
         }
 
         [HttpPost]
-        public async Task<Unit> PostLivro(PostLivroCommand postLivroCommand)
+        public async Task<IActionResult> PostLivro(PostLivroCommand postLivroCommand)
         {
-            return await mediatr.Send(postLivroCommand);
+            return Ok(await mediatr.Send(postLivroCommand));
         }
 
         [HttpPut]
@@ -60,9 +60,9 @@ namespace ColecaoLivrosAPIWeb.Controllers
 
         [HttpDelete]
         [Route("{Id}")]
-        public async Task<Unit> DeleteLivroById(long Id)
+        public async Task<IActionResult> DeleteLivroById(long Id)
         {
-            return await mediatr.Send(new DeleteLivroCommand() { IdLivro = Id });
+            return Ok(await mediatr.Send(new DeleteLivroCommand() { IdLivro = Id }));
         }
     }
 }

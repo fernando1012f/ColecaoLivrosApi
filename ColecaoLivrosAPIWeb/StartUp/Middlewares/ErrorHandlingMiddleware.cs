@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ColecaoLivrosAPI.Domain.Middlewares
+namespace ColecaoLivrosAPIWeb.Middlewares
 {
     public class ErrorHandlingMiddleware
     {

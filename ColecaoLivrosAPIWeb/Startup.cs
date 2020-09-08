@@ -21,7 +21,7 @@ using ColecaoLivrosAPI.Application.MappingProfiles;
 using ColecaoLivrosAPIWeb.StartUp.MappingProfiles;
 using ColecaoLivrosAPI.Application.Commands;
 using ColecaoLivrosAPI.Application.Commands.Autor;
-using ColecaoLivrosAPI.Domain.Middlewares;
+using ColecaoLivrosAPIWeb.Middlewares;
 
 namespace ColecaoLivrosAPI.APIWeb
 {
