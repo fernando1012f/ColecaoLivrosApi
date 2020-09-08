@@ -44,9 +44,9 @@ namespace ColecaoLivrosAPIWeb.Controllers
 
         [HttpPut]
         [Route("{Id}")]
-        public async Task<Unit> PutLivro(long Id, [FromBody] PutLivroCommand putLivroCommand)
+        public async Task<IActionResult> PutLivro(long Id, [FromBody] PutLivroCommand putLivroCommand)
         {
-            return await mediatr.Send(new PutLivroCommand()
+            await mediatr.Send(new PutLivroCommand()
             {
                 Id = Id,
                 NomeLivro = putLivroCommand.NomeLivro,
@@ -54,6 +54,8 @@ namespace ColecaoLivrosAPIWeb.Controllers
                 NumeroPaginas = putLivroCommand.NumeroPaginas,
                 AutorId = putLivroCommand.AutorId
             });
+
+            return Ok();
         }
 
         [HttpDelete]
