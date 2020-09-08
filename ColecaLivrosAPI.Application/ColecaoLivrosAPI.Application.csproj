@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\34ew\ColecaoLivrosAPI.Repository.csproj" />
-    <ProjectReference Include="..\sd\ColecaoLivrosAPI.Domain.csproj" />
+    <ProjectReference Include="..\ColecaoLivrosAPI.Domain\ColecaoLivrosAPI.Domain.csproj" />
+    <ProjectReference Include="..\ColecaoLivrosAPI.Repository\ColecaoLivrosAPI.Repository.csproj" />
   </ItemGroup>
 
 </Project>

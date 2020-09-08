@@ -6700,13 +6700,13 @@
     },
     "ColecaoLivrosAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../sd/ColecaoLivrosAPI.Domain.csproj",
-      "msbuildProject": "../sd/ColecaoLivrosAPI.Domain.csproj"
+      "path": "../ColecaoLivrosAPI.Domain/ColecaoLivrosAPI.Domain.csproj",
+      "msbuildProject": "../ColecaoLivrosAPI.Domain/ColecaoLivrosAPI.Domain.csproj"
     },
     "ColecaoLivrosAPI.Repository/1.0.0": {
       "type": "project",
-      "path": "../34ew/ColecaoLivrosAPI.Repository.csproj",
-      "msbuildProject": "../34ew/ColecaoLivrosAPI.Repository.csproj"
+      "path": "../ColecaoLivrosAPI.Repository/ColecaoLivrosAPI.Repository.csproj",
+      "msbuildProject": "../ColecaoLivrosAPI.Repository/ColecaoLivrosAPI.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6728,11 +6728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj",
+      "projectUniqueName": "I:\\Estudos\\ColecaoLivrosApi\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj",
       "projectName": "ColecaoLivrosAPI.Application",
-      "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj",
+      "projectPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj",
       "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-      "outputPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaLivrosAPI.Application\\obj\\",
+      "outputPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaLivrosAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6751,11 +6751,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\34ew\\ColecaoLivrosAPI.Repository.csproj": {
-              "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\34ew\\ColecaoLivrosAPI.Repository.csproj"
+            "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPI.Domain\\ColecaoLivrosAPI.Domain.csproj": {
+              "projectPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPI.Domain\\ColecaoLivrosAPI.Domain.csproj"
             },
-            "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\sd\\ColecaoLivrosAPI.Domain.csproj": {
-              "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\sd\\ColecaoLivrosAPI.Domain.csproj"
+            "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPI.Repository\\ColecaoLivrosAPI.Repository.csproj": {
+              "projectPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPI.Repository\\ColecaoLivrosAPI.Repository.csproj"
             }
           }
         }

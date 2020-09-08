@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hec7GT3jgXKbSkNIPZSEqIqm+k508uEhVdIkj7cW7PApcxdm300Lhfp75M9lskDEFRPHnfdVbtaMaIymc2ckwg==",
+  "dgSpecHash": "SSfvvif2+eFtkut46LljVye8pqqNaXOyWtH2N5QNry+HtwGuSwb6CLWKjCSalh6n5Tlj7ZATxdHZ54HhSIZJEg==",
   "success": true,
-  "projectFilePath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
+  "projectFilePath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferna\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

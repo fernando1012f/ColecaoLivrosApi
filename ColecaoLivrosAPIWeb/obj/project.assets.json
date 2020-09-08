@@ -6848,19 +6848,18 @@
     },
     "ColecaoLivrosAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../sd/ColecaoLivrosAPI.Domain.csproj",
-      "msbuildProject": "../sd/ColecaoLivrosAPI.Domain.csproj"
+      "path": "../ColecaoLivrosAPI.Domain/ColecaoLivrosAPI.Domain.csproj",
+      "msbuildProject": "../ColecaoLivrosAPI.Domain/ColecaoLivrosAPI.Domain.csproj"
     },
     "ColecaoLivrosAPI.Repository/1.0.0": {
       "type": "project",
-      "path": "../34ew/ColecaoLivrosAPI.Repository.csproj",
-      "msbuildProject": "../34ew/ColecaoLivrosAPI.Repository.csproj"
+      "path": "../ColecaoLivrosAPI.Repository/ColecaoLivrosAPI.Repository.csproj",
+      "msbuildProject": "../ColecaoLivrosAPI.Repository/ColecaoLivrosAPI.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ColecaoLivrosAPI.Application >= 1.0.0",
-      "ColecaoLivrosAPI.Repository >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.2",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.2"
     ]
@@ -6872,11 +6871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
+      "projectUniqueName": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
       "projectName": "ColecaoLivrosAPIWeb",
-      "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
+      "projectPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
       "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-      "outputPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaoLivrosAPIWeb\\obj\\",
+      "outputPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPIWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6895,11 +6894,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\34ew\\ColecaoLivrosAPI.Repository.csproj": {
-              "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\34ew\\ColecaoLivrosAPI.Repository.csproj"
-            },
-            "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj": {
-              "projectPath": "I:\\Estudos\\ColecaoLivrosAPI\\ColecaoLivrosAPI\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj"
+            "I:\\Estudos\\ColecaoLivrosApi\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj": {
+              "projectPath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaLivrosAPI.Application\\ColecaoLivrosAPI.Application.csproj"
             }
           }
         }

@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\34ew\ColecaoLivrosAPI.Repository.csproj" />
     <ProjectReference Include="..\ColecaLivrosAPI.Application\ColecaoLivrosAPI.Application.csproj" />
   </ItemGroup>
 
