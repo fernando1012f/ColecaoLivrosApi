@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace _34ew.Migrations
 {
     [DbContext(typeof(ColecaoLivrosAPIContext))]
-    [Migration("20200831021901_test")]
-    partial class test
+    [Migration("20200909190510_inicial")]
+    partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,8 +25,11 @@ namespace _34ew.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
 
-                    b.Property<int>("Idade")
-                        .HasColumnType("int");
+                    b.Property<DateTime?>("DataDeFalecimento")
+                        .HasColumnType("Date");
+
+                    b.Property<DateTime>("DataDeNascimento")
+                        .HasColumnType("Date");
 
                     b.Property<string>("NomeAutor")
                         .IsRequired()
@@ -44,10 +47,7 @@ namespace _34ew.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
 
-                    b.Property<int>("AutorId")
-                        .HasColumnType("int");
-
-                    b.Property<long?>("AutorId1")
+                    b.Property<long>("AutorId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Editora")
@@ -65,7 +65,7 @@ namespace _34ew.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AutorId1");
+                    b.HasIndex("AutorId");
 
                     b.ToTable("Livros");
                 });
@@ -74,7 +74,9 @@ namespace _34ew.Migrations
                 {
                     b.HasOne("ColecaoLivrosAPI.Dominio.Models.Entidades.Autor", "Autor")
                         .WithMany("Livros")
-                        .HasForeignKey("AutorId1");
+                        .HasForeignKey("AutorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

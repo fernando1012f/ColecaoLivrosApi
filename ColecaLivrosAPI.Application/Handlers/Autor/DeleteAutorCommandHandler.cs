@@ -25,7 +25,7 @@ namespace ColecaoLivrosAPI.Application.Handlers.Autor
             {
                 _baseRepository.Delete(entity);
             }
-            catch(Exception ex)
+            catch
             {
                 throw new BadRequestExceptions(BadRequestExceptions.REGISTRO_FILHOS_ENCONTRADOS);
             }

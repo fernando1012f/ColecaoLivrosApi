@@ -39,6 +39,11 @@ namespace ColecaoLivrosAPIWeb.Middlewares
                 var domainException = exception as IDomainException;
                 code = domainException.StatusCode;
                 message = exception.Message;
+            } else if (exception.InnerException is IDomainException)
+            {
+                var domainException = exception.InnerException as IDomainException;
+                code = domainException.StatusCode;
+                message = exception.InnerException.Message;
             }
                 
              // else if (exception is MyUnauthorizedException) code = HttpStatusCode.Unauthorized;

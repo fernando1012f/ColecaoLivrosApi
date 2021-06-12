@@ -19,8 +19,14 @@ namespace ColecaoLivrosAPI.Repositorio.Config
                 .HasMaxLength(300);
 
             builder
-                .Property(autor => autor.Idade)
+                .Property(autor => autor.DataNascimento)
+                .HasColumnType("Date")
                 .IsRequired();
+
+            builder
+                .Property(autor => autor.DataFalecimento)
+                .HasColumnType("Date")
+                .IsRequired(false);
 
             builder
                 .HasMany(a => a.Livros)

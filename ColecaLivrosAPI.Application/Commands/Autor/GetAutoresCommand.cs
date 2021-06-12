@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ColecaoLivrosAPI.Application.Commands.Autor
 {
-    public class GetAutoresCommand : IRequest <IEnumerable<AutorResponseDto>>
+    public class GetAutoresCommand : IRequest <IEnumerable<AutorRequestDto>>
     {
        
     }

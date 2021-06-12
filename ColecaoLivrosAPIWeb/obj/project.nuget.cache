@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SSfvvif2+eFtkut46LljVye8pqqNaXOyWtH2N5QNry+HtwGuSwb6CLWKjCSalh6n5Tlj7ZATxdHZ54HhSIZJEg==",
+  "dgSpecHash": "XkTm5oIDhyfK+hgQuheJYLzX71n+tcutpb+YUHgeRV4a/cycRa6Y2ftQKU+EEVYXyWOP+6CT07o+YqdqDN64fw==",
   "success": true,
   "projectFilePath": "I:\\Estudos\\ColecaoLivrosApi\\ColecaoLivrosAPIWeb\\ColecaoLivrosAPIWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferna\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.2.0\\fluentvalidation.dependencyinjectionextensions.9.2.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

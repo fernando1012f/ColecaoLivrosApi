@@ -1,19 +1,24 @@
-﻿using ColecaoLivrosAPI.Application.DTOs.Autor;
-using ColecaoLivrosAPI.Dominio.Events;
+﻿using ColecaoLivrosAPI.Application.Commands.Autor;
 using MediatR;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using Utils.Date.Converters;
 
 namespace ColecaoLivrosAPI.Application.Commands
 {
-    public class PostAutorCommand : IRequest
+    public class PostAutorCommand : AutorCommand, IRequest
     {
-        public string NomeAutor { get; set; }
+        public ConvertTypeStringToDateTime DataNascimentoConverted { get; private set; }
+        public ConvertTypeStringToDateTime DataFalecimentoConverted { get; private set; }
 
-        public int Idade { get; set; }
+        private readonly ConvertFormatYearMonthDay _convertStringToDateTime;
 
-        public IEnumerable<AutorLivroRequestDto> LivrosEscritos { get; set; }
+        public PostAutorCommand(ConvertFormatYearMonthDay convertStringToDateTime)
+        {
+            _convertStringToDateTime = convertStringToDateTime;
+            DataNascimentoConverted = _convertStringToDateTime.Convert(DataNascimento);
+            DataFalecimentoConverted = _convertStringToDateTime.Convert(DataFalecimento);
+        }
+       
     }
-
+    
 }

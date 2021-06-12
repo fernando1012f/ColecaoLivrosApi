@@ -11,10 +11,12 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "ColecaoLivrosAPI.Domain": "1.0.0",
           "ColecaoLivrosAPI.Repository": "1.0.0",
+          "FluentValidation": "9.2.0",
           "MediatR": "8.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Utils": "1.0.0",
           "AutoMapper": "10.0.0"
         },
         "runtime": {
@@ -63,6 +65,14 @@
           "lib/netstandard1.5/Castle.Core.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "FluentValidation/9.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       },
@@ -1360,6 +1370,14 @@
         "runtime": {
           "ColecaoLivrosAPI.Repository.dll": {}
         }
+      },
+      "Utils/1.0.0": {
+        "dependencies": {
+          "ColecaoLivrosAPI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Utils.dll": {}
+        }
       }
     }
   },
@@ -1389,6 +1407,13 @@
       "sha512": "sha512-b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
+    },
+    "FluentValidation/9.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LNUzNXWlBQavU/eB9pf4Tg8TTWgCw8E85OBA1GJv4xkdwuer9FuFLHTBjcYX+gGBkPFc2G+3utzEA4aMhUOL3w==",
+      "path": "fluentvalidation/9.2.0",
+      "hashPath": "fluentvalidation.9.2.0.nupkg.sha512"
     },
     "MediatR/8.1.0": {
       "type": "package",
@@ -2313,6 +2338,11 @@
       "sha512": ""
     },
     "ColecaoLivrosAPI.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

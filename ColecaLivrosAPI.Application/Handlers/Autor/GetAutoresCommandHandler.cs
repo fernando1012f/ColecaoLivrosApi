@@ -13,15 +13,15 @@ using System.Threading.Tasks;
 
 namespace ColecaoLivrosAPI.Application.Handlers.Autor
 {
-    public class GetAutoresCommandHandler : IRequestHandler<GetAutoresCommand, IEnumerable<AutorResponseDto>>
+    public class GetAutoresCommandHandler : IRequestHandler<GetAutoresCommand, IEnumerable<AutorRequestDto>>
     {
         private readonly IBaseRepository<Dominio.Models.Entidades.Autor> baseRepository;
         private readonly IMapper _mapper;
 
-        public async Task<IEnumerable<AutorResponseDto>> Handle(GetAutoresCommand request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<AutorRequestDto>> Handle(GetAutoresCommand request, CancellationToken cancellationToken)
         {
             var entity = baseRepository.Query().AsEnumerable().ToList();
-            return _mapper.Map<List<Dominio.Models.Entidades.Autor>, List<AutorResponseDto>>(entity);
+            return _mapper.Map<List<Dominio.Models.Entidades.Autor>, List<AutorRequestDto>>(entity);
         }
 
         public GetAutoresCommandHandler(IBaseRepository<Dominio.Models.Entidades.Autor> baseRepository, IMapper mapper)

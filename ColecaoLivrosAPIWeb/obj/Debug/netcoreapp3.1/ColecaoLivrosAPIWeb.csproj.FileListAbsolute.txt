@@ -62,8 +62,6 @@ I:\Estudos\ColecaoLivrosAPI\ColecaoLivrosAPI\ColecaoLivrosAPIWeb\obj\Debug\netco
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.csprojAssemblyReference.cache
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.AssemblyInfoInputs.cache
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.AssemblyInfo.cs
-I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.csproj.CoreCompileInputs.cache
-I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.MvcApplicationPartsAssemblyInfo.cache
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\appsettings.Development.json
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\appsettings.json
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -119,3 +117,11 @@ I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\staticwe
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.dll
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.pdb
 I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.genruntimeconfig.cache
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\FluentValidation.dll
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\Utils.dll
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\Utils.pdb
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.csproj.CoreCompileInputs.cache
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.MvcApplicationPartsAssemblyInfo.cs
+I:\Estudos\ColecaoLivrosApi\ColecaoLivrosAPIWeb\obj\Debug\netcoreapp3.1\ColecaoLivrosAPIWeb.MvcApplicationPartsAssemblyInfo.cache

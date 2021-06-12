@@ -13,17 +13,17 @@ using System.Threading.Tasks;
 
 namespace ColecaoLivrosAPI.Application.Handlers.Autor
 {
-    public class GetAutorByIdCommandHandler : IRequestHandler<GetAutorByIdCommand, AutorResponseDto>
+    public class GetAutorByIdCommandHandler : IRequestHandler<GetAutorByIdCommand, AutorRequestDto>
     {
         private readonly IBaseRepository<Dominio.Models.Entidades.Autor> _baseRepository;
         private readonly IMapper _mapper;
 
-        public async Task<AutorResponseDto> Handle(GetAutorByIdCommand request, CancellationToken cancellationToken)
+        public async Task<AutorRequestDto> Handle(GetAutorByIdCommand request, CancellationToken cancellationToken)
         {
             var autor = _baseRepository.GetById(request.AutorId)
                 ?? throw new NotFoundExceptions(NotFoundExceptions.ID_NOT_FOUND);
 
-            return _mapper.Map<Dominio.Models.Entidades.Autor, AutorResponseDto>(autor);
+            return _mapper.Map<Dominio.Models.Entidades.Autor, AutorRequestDto>(autor);
         }
 
         public GetAutorByIdCommandHandler(IBaseRepository<Dominio.Models.Entidades.Autor> baseRepository, IMapper mapper  )

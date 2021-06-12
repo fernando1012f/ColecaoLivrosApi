@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ColecaLivrosAPI.Application\ColecaoLivrosAPI.Application.csproj" />
+    <ProjectReference Include="..\Utils\Utils.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
       <PrivateAssets>all</PrivateAssets>

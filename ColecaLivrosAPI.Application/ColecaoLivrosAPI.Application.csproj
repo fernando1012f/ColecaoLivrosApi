@@ -5,8 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="automapper" Version="10.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
     <PackageReference Include="MediatR" Version="8.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
@@ -16,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ColecaoLivrosAPI.Domain\ColecaoLivrosAPI.Domain.csproj" />
     <ProjectReference Include="..\ColecaoLivrosAPI.Repository\ColecaoLivrosAPI.Repository.csproj" />
+    <ProjectReference Include="..\Utils\Utils.csproj" />
   </ItemGroup>
 
 </Project>

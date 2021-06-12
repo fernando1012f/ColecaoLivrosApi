@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace _34ew.Migrations
 {
-    public partial class primeiroDataBase : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,9 +12,11 @@ namespace _34ew.Migrations
                 name: "Autores",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<long>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    NomeAutor = table.Column<string>(maxLength: 300, nullable: false)
+                    NomeAutor = table.Column<string>(maxLength: 300, nullable: false),
+                    DataDeNascimento = table.Column<DateTime>(type: "Date", nullable: false),
+                    DataDeFalecimento = table.Column<DateTime>(type: "Date", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -24,12 +27,12 @@ namespace _34ew.Migrations
                 name: "Livros",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<long>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     NomeLivro = table.Column<string>(maxLength: 400, nullable: false),
                     Editora = table.Column<string>(maxLength: 400, nullable: false),
-                    NumeroPaginas = table.Column<int>(type: "int", nullable: false),
-                    AutorId = table.Column<int>(nullable: false)
+                    NumeroPaginas = table.Column<int>(nullable: false),
+                    AutorId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {

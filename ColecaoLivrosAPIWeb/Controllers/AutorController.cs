@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using ColecaoLivrosAPI.Application.Commands;
 using ColecaoLivrosAPI.Application.Commands.Autor;
 using ColecaoLivrosAPI.Application.DTOs.Autor;
@@ -16,13 +18,12 @@ namespace ColecaoLivrosAPIWeb.Controllers
     public class AutorController : ControllerBase
     {
         private readonly IMediator mediator;
-
         public AutorController(IMediator mediator)
         {
             this.mediator = mediator;
         } 
         [HttpPost]
-        public async Task<IActionResult> PostAutor(PostAutorCommand postAutorCommand)
+        public async Task<IActionResult> PostAutor([FromBody] PostAutorCommand postAutorCommand)
         {
             await mediator.Send(postAutorCommand);
             return Ok();
@@ -41,14 +42,14 @@ namespace ColecaoLivrosAPIWeb.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<AutorResponseDto>> GetAutores()
+        public async Task<ActionResult<AutorRequestDto>> GetAutores()
         {
             return Ok(await mediator.Send(new GetAutoresCommand()));
         }
         
         [HttpGet]
         [Route("{Id}")]
-        public async Task<ActionResult<AutorResponseDto>> GetAutorById(long Id)
+        public async Task<ActionResult<AutorRequestDto>> GetAutorById(long Id)
         {
             return Ok(await mediator.Send(new GetAutorByIdCommand() { AutorId = Id}));
         }

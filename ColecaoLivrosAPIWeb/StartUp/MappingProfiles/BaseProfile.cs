@@ -9,5 +9,6 @@ namespace ColecaoLivrosAPIWeb.StartUp.MappingProfiles
 {
     public class BaseProfile : Profile
     {
+
     }
 }

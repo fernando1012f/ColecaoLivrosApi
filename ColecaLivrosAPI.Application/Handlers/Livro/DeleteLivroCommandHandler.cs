@@ -23,7 +23,7 @@ namespace ColecaoLivrosAPI.Application.Handlers.Livro
             try
             {
                 _baseRepository.Delete(livro);
-            } catch(Exception ex)
+            } catch
             {
                 throw new BadRequestExceptions(BadRequestExceptions.REGISTRO_FILHOS_ENCONTRADOS);
             }

@@ -4,11 +4,12 @@ using System.Text;
 
 namespace ColecaoLivrosAPI.Application.DTOs.Autor
 {
-    public class AutorResponseDto
+    public class AutorRequestDto
     {
         public long Id { get; set; }
         public string NomeAutor { get; set; }
-        public int Idade { get; set; }
-        public IEnumerable<LivroResponseDto> LivrosEscritos {get; set;}
+        public string DataNascimento { get; set; }
+        public string DataFalecimento { get; set; }
+        public IEnumerable<AutorLivroRequestDto> LivrosEscritos {get; set;}
     }
 }
